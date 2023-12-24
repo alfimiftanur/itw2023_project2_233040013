@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+    --main-color: #65B741;
+    --second-color: #C1F2B0;
+    --text-color: #FBF6EE;
+}
+/* NAVBAR */
+.navbar{
+    background-color: var(--main-color);
+}
+
+.logo{
+    font-family: 'Permanent Marker', cursive;
+    font-size: 1.8rem;
+    color: var(--second-color);
+}
+
+.logo:hover{
+    color: var(--text-color);
+}
+
+.navbar-nav .nav-item{
+    font-family: 'Nunito Sans', sans-serif;
+    /* color: var(--text-color); */
+}
+
+
+/* HOME */
+.home{
+    background-image: url(../img/bg-home.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+.home-content h2{
+    font-size: 3rem;
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: bold;
+}
+
+/* ABOUT */
+.image-about img{
+    box-shadow: 0 0 1.5rem .1rem rgba(0, 0, 0, 2); 
+}
+
+.about-content{
+    font-family: 'Nunito Sans', sans-serif;
+}
