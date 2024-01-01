@@ -15,7 +15,7 @@
       <main>
         <h1>Selamat Datang di Toko TR</h1>
         <p class="fs-5 text-warning">Best Grocery Store in Town</p>
-        <a href="#about" class="btn btn-lg">Lihat selengkapnya</a>
+        <a href="#about" class="btn btn-lg" onClick="enable_scroll()">Lihat selengkapnya</a>
       </main>
     </section>
     <!-- END HOME SECTION -->
@@ -139,7 +139,7 @@
             <h2 class="lokasi-header text-center">Lokasi Toko</h2>
             <p>Alamat: Kp. Pasar Rebo, Desa Ciheras, Kecamatan Cipatujah <br>
             Kabupaten Tasikmalaya, Jawa Barat</p>
-            <a href="https://maps.app.goo.gl/4hxyh83ex6MbicrM9" target="_blank" class="btn btn-light btn-m my-2">Klik untuk mengetahui lokasinya</a>
+            <a href="https://maps.app.goo.gl/4hxyh83ex6MbicrM9" target="_blank" class="btn btn-light btn-m my-2 button_lokasi">Klik untuk mengetahui lokasinya</a>
           </div>
           <div class="container-peta">
             <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d988.3820878185466!2d107.96249076953691!3d-7.733642670610872!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e660b5043abebc3%3A0xaa70493d7e2ec6ea!2sCiheras%2C%20Cipatujah%2C%20Tasikmalaya%20Regency%2C%20West%20Java%2046189!5e0!3m2!1sen!2sid!4v1704117483879!5m2!1sen!2sid" width="100%" height="200" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" ></iframe>
@@ -234,16 +234,15 @@
           </div>
       </div>
       <div class="right-side">
-          <p></p>
       <form action="#">
           <div class="input-box">
-              <input type="text" placeholder="Enter Your Name">
+              <input type="text" placeholder="Masukkan Nama">
           </div>
           <div class="input-box">
-              <input type="text" placeholder="Enter Your Email">
+              <input type="text" placeholder="Masukkan Email">
           </div>
           <div class="input-box message-box">
-              <textarea></textarea>
+              <textarea placeholder="Masukkan pesan"></textarea>
           </div>
           <div class="button">
               <input type="button" value="Send Now">

@@ -7,6 +7,9 @@
     list-style: none;
 }
 
+html{
+    scroll-behavior: smooth;
+}
 
 :root{
     --main-color: #65B741;
@@ -21,7 +24,7 @@
     min-height: 100vh;
     background-image: url(../img/after__crop.png);
     background-repeat: no-repeat;
-    /* background-attachment: fixed; */
+    background-attachment: fixed;
     background-size: cover;
     background-position: center;
 }
@@ -32,7 +35,8 @@ main{
     font-weight: bold;
 }
 
-.hero a{
+.hero a,
+.lokasi-header a{
     color: var(--text-color);
     background-color: var(--main-color);
     box-shadow: var(--shadow);
@@ -94,7 +98,7 @@ main{
 
 /* LOKASI */
 .lokasi-header{
-    margin: 5rem 0;
+    margin: 5rem 0 2rem ;
 }
 
 .container-peta iframe{
@@ -126,7 +130,7 @@ main{
 .content .left-side::before{
     content: '';
     position: absolute;
-    height: 70%;
+    height: 100%;
     width: 2px;
     right: -15px;
     top: 50%;
@@ -182,7 +186,7 @@ main{
     /* font-weight: 500;*/
     background: #F0F1F8;
     border-radius: 6px;
-    padding: 0 15px;
+    padding: 10px 15px;
     resize: none;
 }
 
